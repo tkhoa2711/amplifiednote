@@ -1,0 +1,38 @@
+{
+    "prod": {
+        "awscloudformation": {
+            "AuthRoleName": "amplifiednote-prod-20190612093355-authRole",
+            "UnauthRoleArn": "arn:aws:iam::714266697895:role/amplifiednote-prod-20190612093355-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::714266697895:role/amplifiednote-prod-20190612093355-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplifiednote-prod-20190612093355-deployment",
+            "UnauthRoleName": "amplifiednote-prod-20190612093355-unauthRole",
+            "StackName": "amplifiednote-prod-20190612093355",
+            "StackId": "arn:aws:cloudformation:us-east-1:714266697895:stack/amplifiednote-prod-20190612093355/328146c0-8cf5-11e9-80ae-1251e602a9c6"
+        }
+    },
+    "test": {
+        "awscloudformation": {
+            "AuthRoleName": "amplifiednote-test-20190612093704-authRole",
+            "UnauthRoleArn": "arn:aws:iam::714266697895:role/amplifiednote-test-20190612093704-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::714266697895:role/amplifiednote-test-20190612093704-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplifiednote-test-20190612093704-deployment",
+            "UnauthRoleName": "amplifiednote-test-20190612093704-unauthRole",
+            "StackName": "amplifiednote-test-20190612093704",
+            "StackId": "arn:aws:cloudformation:us-east-1:714266697895:stack/amplifiednote-test-20190612093704/a3787f10-8cf5-11e9-851a-0a20b68b404c"
+        }
+    },
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplifiednote-dev-20190612093753-authRole",
+            "UnauthRoleArn": "arn:aws:iam::714266697895:role/amplifiednote-dev-20190612093753-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::714266697895:role/amplifiednote-dev-20190612093753-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplifiednote-dev-20190612093753-deployment",
+            "UnauthRoleName": "amplifiednote-dev-20190612093753-unauthRole",
+            "StackName": "amplifiednote-dev-20190612093753",
+            "StackId": "arn:aws:cloudformation:us-east-1:714266697895:stack/amplifiednote-dev-20190612093753/c0c28340-8cf5-11e9-85d2-0a325fb8c980"
+        }
+    }
+}
